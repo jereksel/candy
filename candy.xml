@@ -38,7 +38,7 @@
 
   <!-- Candy -->
   <project path="candy" name="candy" remote="candy" />
-  <project path="build/make" name="build" remote="candy" >
+  <project path="build/make" name="yaznas/build" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
